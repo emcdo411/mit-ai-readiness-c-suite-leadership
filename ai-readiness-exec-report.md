@@ -44,6 +44,8 @@ Executives must ask: *"Can we explain our model’s decisions to regulators, cus
 
 High-stakes industries (e.g., finance, healthcare) require interpretability for compliance and trust.
 
+**Example:** In healthcare diagnostics, being able to explain why an AI flagged a tumor as malignant versus benign can be the difference between trust and rejection by clinicians.
+
 ---
 
 ## Cybersecurity Risks in AI Systems
@@ -83,6 +85,8 @@ Fairness is not just a value — it's a business differentiator.
 * Include opt-out mechanisms where possible
 * Avoid "black box" interfaces in high-impact use cases
 
+**Best Practice Example:** Salesforce includes detailed model behavior summaries in their Einstein Analytics tools, giving admins more visibility and control.
+
 Transparency directly impacts adoption.
 
 ---
@@ -94,6 +98,8 @@ Not every decision should be fully automated. Key applications should allow for:
 * Override mechanisms
 * Human review checkpoints
 * Continuous feedback loops
+
+**When to Use:** In fraud detection or insurance claim review, letting humans intervene reduces false positives while allowing models to learn from human input.
 
 ---
 
@@ -112,6 +118,7 @@ Data hygiene is foundational to ethical AI.
 * MLOps (CI/CD for ML): Automate deployment, monitoring, rollback
 * Hybrid cloud vs. on-prem decision-making
 * AI observability tools (e.g., Arize, Fiddler)
+* **Tooling to Know:** MLFlow for tracking, Kubernetes for orchestration, DVC for dataset versioning
 
 ---
 
@@ -122,6 +129,12 @@ Executives should understand:
 * Model lifecycle basics
 * Terminology like overfitting, drift, inference latency
 * How AI affects compliance, finance, HR, and ops
+
+**Quick Upskill Tools:**
+
+* Google’s Machine Learning Crash Course
+* MIT Sloan’s AI for Business short course
+* NIST’s AI Literacy Playbook
 
 AI readiness is a C-suite sport.
 
